@@ -1,5 +1,6 @@
 import math
 
+
 # A utility function that will return true
 # if the number is perfect square, else this
 # will return false
@@ -16,7 +17,7 @@ def isFibonacciNumber(n):
 
 
 n = int(input("Enter the number you want to check : "))
-if (isFibonacciNumber(n) == True):
+if isFibonacciNumber(n):
     print(n, " Given number is fibonacci number")
 else:
     print(n, " is not a fibonacci number")
